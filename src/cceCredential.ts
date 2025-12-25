@@ -53,9 +53,8 @@ export async function installKubeConfig(kubeconfigPath: string) {
     )
     await utils.execCommand(installCommand)
     console.log('kubectl config is already set')
-    const viewClustInfo =
-        'kubectl version --client && kubectl cluster-info'
-    await utils.execCommand(viewClustInfo)
+    const verifyConnection = 'kubectl version'
+    await utils.execCommand(verifyConnection)
 }
 /**
  * 调用CCE SDK获取CCE集群的kubeconfig

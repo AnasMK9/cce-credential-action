@@ -1,6 +1,6 @@
 {
   "name": "cce-credentials-action",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "Install kubectl and Set Kube config for Huawei Cloud CCE cluster",
   "main": "lib/main.js",

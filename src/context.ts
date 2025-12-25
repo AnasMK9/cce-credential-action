@@ -9,17 +9,38 @@ export interface Inputs {
 }
 
 export const cceSupportRegions = [
+    'ae-ad-1',
+    'af-north-1',
     'af-south-1',
-    'cn-north-4',
-    'cn-north-1',
-    'cn-north-9',
-    'cn-east-2',
-    'cn-east-3',
-    'cn-south-1',
-    'cn-southwest-2',
+    'ap-southeast-1',
     'ap-southeast-2',
     'ap-southeast-3',
-    'ap-southeast-1'
+    'ap-southeast-4',
+    'ap-southeast-5',
+    'cn-east-2',
+    'cn-east-3',
+    'cn-east-4',
+    'cn-east-5',
+    'cn-north-1',
+    'cn-north-11',
+    'cn-north-12',
+    'cn-north-2',
+    'cn-north-4',
+    'cn-north-9',
+    'cn-south-1',
+    'cn-south-2',
+    'cn-south-4',
+    'cn-southwest-2',
+    'eu-west-0',
+    'la-north-2',
+    'la-south-2',
+    'me-east-1',
+    'my-kualalumpur-1',
+    'na-mexico-1',
+    'ru-moscow-1',
+    'ru-northwest-2',
+    'sa-brazil-1',
+    'tr-west-1'
 ]
 
 export const osSupportPlatforms = ['darwin', 'linux', 'win32']
